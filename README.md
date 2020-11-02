@@ -35,6 +35,7 @@
 | It will use our input to construct objects that can then later be recalled by the user  | portland, dec-2019, saw a blazer game | newEvent = new Event(location, date, notes)|
 | takes this new object and assigns it a unique ID and pushes it into a array | newEvent "id = 1"| trips = [newEvent "id = 1", newEvent "id = 2", newEvent "id = 3",]|
 | It will create a ul and will add all unique id newEvent's to that list | trips = [newEvent "id = 1", newEvent "id = 2", newEvent "id = 3",] | <ul><li>newEvent "id = 1"</li><li>newEvent "id = 2"</li><li>newEvent "id = 3"</li></ul> |
+| It will allow user to click on listed events expanding the infomation within and also prompting the user with the abilty to delete all info tied to that id |<ul><li>newEvent "id = 1"</li><li>newEvent "id = 2"</li><li>newEvent "id = 3"</li></ul>| newEvent "id = 2" = japan, july-2018, went to mt.Fuji   ~DELETE BUTTON~|
 
 ## Bugs
 * none known
